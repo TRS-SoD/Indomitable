@@ -1,4 +1,4 @@
-# Starting point
+# Indomitable
 
 [![build-ublue](https://github.com/trs-sod/indomitable/actions/workflows/build.yml/badge.svg)](https://github.com/trs-sod/indomitable/actions/workflows/build.yml)
 
