@@ -34,7 +34,7 @@ rpm:
     - system-config-printer
     - wev
     - wl-clipboard
-#    - xorg-x11-server-Xwayland
+    - xorg-x11-server-Xwayland-23.1.2-1.fc38.x86_64
     - kanshi
     - playerctl
     - pulseaudio-utils
