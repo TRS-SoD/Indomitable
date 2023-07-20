@@ -96,7 +96,6 @@ rpm:
     - sddm
     - sddm-sugar-dark
     - swayidle
-    - waybar
     - swaylock-effects
     - SwayNotificationCenter
     - wlogout
