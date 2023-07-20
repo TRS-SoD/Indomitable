@@ -94,7 +94,7 @@ rpm:
 
     # GUI
     - sddm
-    - sddm-sugar-dark
+#    - sddm-sugar-dark
     - swayidle
     - swaylock-effects
     - SwayNotificationCenter
@@ -114,6 +114,9 @@ rpm:
     # File Manager
     - Thunar
     - thunar-archive-plugin
+
+    # Extras
+    - cava
 
   remove:
     - firefox

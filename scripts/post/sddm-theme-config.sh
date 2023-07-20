@@ -2,6 +2,6 @@
 
 set -oue pipefail
 
-cp /usr/share/sddm/themes/sugar-dark/theme.conf /etc/sddm.conf.d/theme.conf
+cp /usr/share/sddm/themes/sugar-dark/theme.conf /usr/etc/sddm.conf.d/theme.conf
 
-echo -e "[Theme]\nCurrent=sugar-dark" > /etc/sddm.conf.d/current.conf
+echo -e "[Theme]\nCurrent=sugar-dark" > /usr/etc/sddm.conf.d/current.conf
