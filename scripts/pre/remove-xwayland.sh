@@ -2,4 +2,4 @@
 
 set -oue pipefail
 
-rpm-ostree override remove xorg-x11-server-Xwayland && ostree container commit
+rpm-ostree override remove xorg-x11-server-Xwayland
