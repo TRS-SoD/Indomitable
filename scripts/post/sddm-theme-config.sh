@@ -2,7 +2,7 @@
 
 set -oue pipefail
 
-systemctl enable sddm.service
+systemctl enable sddm
 
 systemctl set-default graphical.target
 

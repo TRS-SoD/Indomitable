@@ -123,6 +123,6 @@ rpm:
     - firefox-langpacks
 
 firstboot:
-  yafti: false
+  yafti: true
   flatpaks:
   - org.mozilla.firefox
