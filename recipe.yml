@@ -127,6 +127,16 @@ rpm:
     - sddm-wayland-generic
     - weston
     - weston-libs
+    # the sway deps
+#    - breeze-cursor-theme
+#    - breeze-icon-theme
+#    - fcft
+#    - utf8proc
+#    - python3-dbus-next
+#    - python3-i3ipc
+#    - python3-psutil
+#    - python3-tenacity
+#    - python3-xlib
     
     # File Manager
     - Thunar
