@@ -94,7 +94,8 @@ rpm:
 
     # GUI
     - sddm
-#    - sddm-sugar-dark
+    - sddm-x11
+    - sddm-sugar-dark
     - swayidle
     - swaylock-effects
     - SwayNotificationCenter
