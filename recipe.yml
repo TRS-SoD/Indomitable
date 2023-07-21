@@ -94,7 +94,7 @@ rpm:
 
     # GUI
     - sddm
-    - sddm-x11
+    - sway-config-fedora
     - sddm-sugar-dark
     - swayidle
     - swaylock-effects
