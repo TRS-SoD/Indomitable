@@ -22,7 +22,6 @@ rpm:
 
     # System Tools
     - blueman
-    - bolt
     - udiskie
     - fprintd-pam
     - gnome-keyring-pam
@@ -30,7 +29,6 @@ rpm:
     - pavucontrol
     - brightnessctl
     - pinentry-gnome3
-    - plymouth-system-theme
     - polkit
     - system-config-printer
     - wev
@@ -51,31 +49,16 @@ rpm:
     - pipewire-alsa
     - pipewire-jack-audio-connection-kit
     - pipewire-plugin-libcamera
-    - pam-u2f
-    - pamu2fcfg
-    - fido2-tools
-    - unrar
-    - tar
     - xdg-user-dirs
 
     ## Network manager and vpn
     - network-manager-applet
     - NetworkManager-l2tp-gnome
-    - NetworkManager-libreswan-gnome
-    - NetworkManager-openconnect-gnome
     - NetworkManager-openvpn-gnome
     - NetworkManager-pptp-gnome
     - NetworkManager-sstp-gnome
-    - NetworkManager-vpnc-gnome
-    - NetworkManager-adsl
     - NetworkManager-bluetooth
-    - NetworkManager-iodine-gnome
-    - NetworkManager-libreswan-gnome
-    - NetworkManager-openconnect-gnome
-    - NetworkManager-openvpn-gnome
-    - NetworkManager-ppp
     - NetworkManager-wifi
-    - NetworkManager-wwan
 
     # Theming
     - qt5ct
@@ -108,19 +91,23 @@ rpm:
     - hyprland-contrib
     - hyprshot
     - slurp
-    - desktop-backgrounds-compat
-    - libseat
+
+    # sddm stuff
+#    - desktop-backgrounds-compat
+#    - libseat
     - sddm-wayland-generic
-    - weston
-    - weston-libs
+#    - weston
+#    - weston-libs
     
     # File Manager
     - Thunar
     - thunar-archive-plugin
+    - pcmanfm
 
   remove:
     - firefox
     - firefox-langpacks
+    - htop
 
 firstboot:
   yafti: true

@@ -6,8 +6,6 @@ setup-flatpak-repos:
   flatpak remote-add --if-not-exists --user kdeapps-nightly https://distribute.kde.org/kdeapps.flatpakrepo
   flatpak remote-add --if-not-exists --user gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
   flatpak remote-add --if-not-exists --user elemenetoryos-appcenter https://flatpak.elementary.io/repo.flatpakrepo
-  done
-
 
 setup-flatpaks:
   #!/usr/bin/env bash
