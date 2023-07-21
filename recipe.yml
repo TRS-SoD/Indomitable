@@ -22,15 +22,15 @@ rpm:
 
     # System Tools
     - blueman
-#    - bolt
+    - bolt
     - udiskie
     - fprintd-pam
-#    - gnome-keyring-pam
+    - gnome-keyring-pam
     - lxqt-policykit
     - pavucontrol
     - brightnessctl
-#    - pinentry-gnome3
-#    - plymouth-system-theme
+    - pinentry-gnome3
+    - plymouth-system-theme
     - polkit
     - system-config-printer
     - wev
@@ -56,7 +56,7 @@ rpm:
     - fido2-tools
     - unrar
     - tar
-#    - xdg-user-dirs
+    - xdg-user-dirs
 
     ## Network manager and vpn
     - network-manager-applet
@@ -89,8 +89,8 @@ rpm:
     - qt5ct
     - lxappearance
     - qt5-qtwayland
-#    - kvantum
-#    - gtk-murrine-engine
+    - kvantum
+    - gtk-murrine-engine
 
     # Terminal
     - kitty
@@ -99,7 +99,7 @@ rpm:
     - sddm
     - wofi
 #    - sddm-x11
-#    - sddm-sugar-dark
+    - sddm-sugar-dark
     - swayidle
     - swaylock-effects
     - SwayNotificationCenter
@@ -119,7 +119,7 @@ rpm:
 #    - swaybg
 
     # File Manager
-    - thunar
+    - Thunar
     - thunar-archive-plugin
 
   remove:
