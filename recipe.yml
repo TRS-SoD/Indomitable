@@ -107,14 +107,14 @@ rpm:
     - wlogout
     - wlsunset
     - xdg-desktop-portal-hyprland
-#    - xdg-desktop-portal-gtk
+    - xdg-desktop-portal-gtk
     - waybar-hyprland
     - hyprpicker
     - hyprpaper
     - hyprland-plugins
     - hyprland-autoname-workspaces
     - hyprland
-#    - hyprland-contrib
+    - hyprland-contrib
     - hyprshot
     - slurp
 #    - swaybg
