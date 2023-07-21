@@ -61,8 +61,10 @@ rpm:
 
     # Theming
     - qt5ct
+    - qt6ct
     - lxappearance
     - qt5-qtwayland
+    - qt6-qtwayland
     - kvantum
     - gtk-murrine-engine
 
