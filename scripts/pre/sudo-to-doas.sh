@@ -13,7 +13,6 @@ rpm-ostree install -y \
 
 echo "opendoas" >> /etc/dnf/protected.d/doas.conf 
 
->> /etc/doas.conf
 echo  "permit persist keepenv :wheel" > /etc/doas.conf
 echo  "permit persist keepenv :sudo" >> /etc/doas.conf
 echo  "permit nopass root as root" >> /etc/doas.conf
