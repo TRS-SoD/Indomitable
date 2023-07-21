@@ -49,7 +49,6 @@ rpm:
     - pipewire-alsa
     - pipewire-jack-audio-connection-kit
     - pipewire-plugin-libcamera
-    - xdg-user-dirs
 
     ## Network manager and vpn
     - network-manager-applet
@@ -74,7 +73,6 @@ rpm:
 
     # GUI
     - rofi
-    - sddm-sugar-dark
     - swayidle
     - swaylock-effects
     - SwayNotificationCenter
@@ -93,16 +91,13 @@ rpm:
     - slurp
 
     # sddm stuff
-#    - desktop-backgrounds-compat
-#    - libseat
     - sddm-wayland-generic
-#    - weston
-#    - weston-libs
-    
+    - sddm-sugar-dark
+
     # File Manager
     - Thunar
     - thunar-archive-plugin
-    - pcmanfm
+    - unrar
 
   remove:
     - firefox
