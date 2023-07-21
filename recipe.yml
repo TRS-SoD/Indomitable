@@ -96,7 +96,6 @@ rpm:
     - kitty
 
     # GUI
-    - sddm
     - wofi
 #    - sddm-x11
     - sddm-sugar-dark
@@ -118,6 +117,14 @@ rpm:
     - slurp
 #    - swaybg
 
+#    - sddm
+    # sddm prereqs?
+    - desktop-backgrounds-compat
+    - libseat
+    - sddm-wayland-generic
+    - weston
+    - weston-libs
+    
     # File Manager
     - Thunar
     - thunar-archive-plugin
