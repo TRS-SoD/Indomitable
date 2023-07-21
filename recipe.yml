@@ -24,7 +24,7 @@ rpm:
     - blueman
     - udiskie
     - fprintd-pam
-#    - gnome-keyring-pam
+    - gnome-keyring-pam
     - lxqt-policykit
     - pavucontrol
     - brightnessctl
@@ -63,8 +63,8 @@ rpm:
     - qt5ct
     - lxappearance
     - qt5-qtwayland
-#    - kvantum
-#    - gtk-murrine-engine
+    - kvantum
+    - gtk-murrine-engine
 
     # Terminal
     - kitty
@@ -93,7 +93,7 @@ rpm:
     - sddm-sugar-dark
 
     # File Manager
-    - thunar
+    - Thunar
     - thunar-archive-plugin
     - unrar
 
