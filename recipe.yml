@@ -23,6 +23,7 @@ rpm:
     # System Tools
     - blueman
     - bolt
+    - udiskie
     - fprintd-pam
     - gnome-keyring-pam
     - lxqt-policykit
@@ -39,11 +40,8 @@ rpm:
     - playerctl
     - pulseaudio-utils
     - clipman
-    - tumbler
     - btop
     - imv
-    - mpd
-    - mpv
     - wtype
     - wlr-randr
     - gamescope
@@ -53,14 +51,12 @@ rpm:
     - pipewire-alsa
     - pipewire-jack-audio-connection-kit
     - pipewire-plugin-libcamera
-    - stow
     - pam-u2f
     - pamu2fcfg
     - fido2-tools
     - unrar
     - tar
-    - p7zip
-    - xdg-user-dirs
+#    - xdg-user-dirs
 
     ## Network manager and vpn
     - network-manager-applet
@@ -71,31 +67,39 @@ rpm:
     - NetworkManager-pptp-gnome
     - NetworkManager-sstp-gnome
     - NetworkManager-vpnc-gnome
+    - NetworkManager-adsl
+    - NetworkManager-bluetooth
+    - NetworkManager-iodine-gnome
+    - NetworkManager-libreswan-gnome
+    - NetworkManager-openconnect-gnome
+    - NetworkManager-openvpn-gnome
+    - NetworkManager-ppp
+    - NetworkManager-wifi
+    - NetworkManager-wwan
 
     # Virtualization 
-    - qemu
-    - virt-install
-    - virt-manager
-    - virt-viewer
-    - libvirt-client
-    - libvirt-daemon-kvm
+#    - qemu
+#    - virt-install
+#    - virt-manager
+#    - virt-viewer
+#    - libvirt-client
+#    - libvirt-daemon-kvm
 
     # Theming
     - qt5ct
-    - qt6ct
     - lxappearance
     - qt5-qtwayland
-    - qt6-qtwayland
-    - kvantum
-    - gtk-murrine-engine
+#    - kvantum
+#    - gtk-murrine-engine
 
     # Terminal
     - kitty
 
     # GUI
     - sddm
-    - sway-config-fedora
-    - sddm-sugar-dark
+    - wofi
+#    - sddm-x11
+#    - sddm-sugar-dark
     - swayidle
     - swaylock-effects
     - SwayNotificationCenter
@@ -109,20 +113,18 @@ rpm:
     - hyprland-plugins
     - hyprland-autoname-workspaces
     - hyprland
-    - hyprland-contrib
+#    - hyprland-contrib
     - hyprshot
+    - slurp
+    - swaybg
 
     # File Manager
-    - Thunar
+    - thunar
     - thunar-archive-plugin
-
-    # Extras
-    - cava
 
   remove:
     - firefox
     - firefox-langpacks
-    - htop
 
 firstboot:
   yafti: false
