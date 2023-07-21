@@ -87,8 +87,10 @@ rpm:
 
     # Theming
     - qt5ct
+    - qt6ct
     - lxappearance
     - qt5-qtwayland
+    - qt6-qtwayland
     - kvantum
     - gtk-murrine-engine
 
@@ -96,7 +98,7 @@ rpm:
     - kitty
 
     # GUI
-    - wofi
+    - rofi
 #    - sddm-x11
     - sddm-sugar-dark
     - swayidle
@@ -117,13 +119,14 @@ rpm:
     - slurp
 #    - swaybg
 
-#    - sddm
+    - sddm
+    - sddm-themes
     # sddm prereqs?
-    - desktop-backgrounds-compat
-    - libseat
-    - sddm-wayland-generic
-    - weston
-    - weston-libs
+#    - desktop-backgrounds-compat
+#    - libseat
+#    - sddm-wayland-generic
+#    - weston
+#    - weston-libs
     
     # File Manager
     - Thunar
