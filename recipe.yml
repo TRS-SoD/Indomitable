@@ -107,7 +107,7 @@ rpm:
     - wlogout
     - wlsunset
     - xdg-desktop-portal-hyprland
-    - xdg-desktop-portal-gtk
+#    - xdg-desktop-portal-gtk
     - waybar-hyprland
     - hyprpicker
     - hyprpaper
@@ -125,6 +125,7 @@ rpm:
     - desktop-backgrounds-compat
     - libseat
     - sddm-wayland-generic
+    #- sddm-wayland-generic-0.19.0^git20230404.e652433-1.
     - weston
     - weston-libs
     # the sway deps
