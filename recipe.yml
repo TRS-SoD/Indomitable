@@ -80,7 +80,7 @@ rpm:
     - wlogout
     - wlsunset
     - xdg-desktop-portal-hyprland
-    - xdg-desktop-portal-gtk
+#    - xdg-desktop-portal-gtk
     - waybar-hyprland
     - hyprpicker
     - hyprpaper
