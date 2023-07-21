@@ -119,14 +119,14 @@ rpm:
     - slurp
 #    - swaybg
 
-    - sddm
-    - sddm-themes
+#    - sddm
+#    - sddm-themes
     # sddm prereqs?
-#    - desktop-backgrounds-compat
-#    - libseat
-#    - sddm-wayland-generic
-#    - weston
-#    - weston-libs
+    - desktop-backgrounds-compat
+    - libseat
+    - sddm-wayland-generic
+    - weston
+    - weston-libs
     
     # File Manager
     - Thunar
