@@ -2,8 +2,8 @@
 
 set -oue pipefail
 
-systemctl enable sddm
+#systemctl enable sddm
 
-systemctl set-default graphical.target
+#systemctl set-default graphical.target
 
 cp /usr/share/sddm/themes/sugar-dark/theme.conf /etc/sddm.conf.d/theme.conf

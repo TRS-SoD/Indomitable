@@ -61,12 +61,10 @@ rpm:
 
     # Theming
     - qt5ct
-    - qt6ct
     - lxappearance
     - qt5-qtwayland
-    - qt6-qtwayland
-    - kvantum
-    - gtk-murrine-engine
+#    - kvantum
+#    - gtk-murrine-engine
 
     # Terminal
     - kitty
@@ -86,7 +84,7 @@ rpm:
     - hyprland-plugins
     - hyprland-autoname-workspaces
     - hyprland
-    - hyprland-contrib
+#    - hyprland-contrib
     - hyprshot
     - slurp
 
@@ -95,14 +93,13 @@ rpm:
     - sddm-sugar-dark
 
     # File Manager
-    - Thunar
+    - thunar
     - thunar-archive-plugin
     - unrar
 
   remove:
     - firefox
     - firefox-langpacks
-    - htop
 
 firstboot:
   yafti: true
