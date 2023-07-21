@@ -2,11 +2,11 @@
 
 set -oue pipefail
 
-systemctl enable sddm --now
+systemctl enable sddm.service
 
 systemctl set-default graphical.target
 
-systemctl isolate graphical.target
+#systemctl isolate graphical.target
 
 #cp /usr/share/sddm/themes/sugar-dark/theme.conf /usr/etc/sddm.conf.d/theme.conf
 
