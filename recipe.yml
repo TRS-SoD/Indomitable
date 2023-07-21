@@ -77,14 +77,6 @@ rpm:
     - NetworkManager-wifi
     - NetworkManager-wwan
 
-    # Virtualization 
-#    - qemu
-#    - virt-install
-#    - virt-manager
-#    - virt-viewer
-#    - libvirt-client
-#    - libvirt-daemon-kvm
-
     # Theming
     - qt5ct
     - qt6ct
@@ -99,7 +91,6 @@ rpm:
 
     # GUI
     - rofi
-#    - sddm-x11
     - sddm-sugar-dark
     - swayidle
     - swaylock-effects
@@ -117,27 +108,11 @@ rpm:
     - hyprland-contrib
     - hyprshot
     - slurp
-#    - swaybg
-
-#    - sddm
-#    - sddm-themes
-    # sddm prereqs?
     - desktop-backgrounds-compat
     - libseat
     - sddm-wayland-generic
-    #- sddm-wayland-generic-0.19.0^git20230404.e652433-1.
     - weston
     - weston-libs
-    # the sway deps
-#    - breeze-cursor-theme
-#    - breeze-icon-theme
-#    - fcft
-#    - utf8proc
-#    - python3-dbus-next
-#    - python3-i3ipc
-#    - python3-psutil
-#    - python3-tenacity
-#    - python3-xlib
     
     # File Manager
     - Thunar
