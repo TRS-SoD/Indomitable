@@ -102,6 +102,7 @@ rpm:
   remove:
     - firefox
     - firefox-langpacks
+    - htop
 
 firstboot:
   yafti: true
