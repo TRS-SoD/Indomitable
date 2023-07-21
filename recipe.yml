@@ -25,7 +25,7 @@ rpm:
     - blueman
     - udiskie
     - fprintd-pam
-    - gnome-keyring-pam
+#    - gnome-keyring-pam
     - lxqt-policykit
     - pavucontrol
     - brightnessctl
@@ -34,7 +34,7 @@ rpm:
     - system-config-printer
     - wev
     - wl-clipboard
-    - xorg-x11-server-Xwayland-23.1.2-1.fc38.x86_64
+    - xorg-x11-server-Xwayland
     - kanshi
     - playerctl
     - pulseaudio-utils
