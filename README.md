@@ -26,16 +26,29 @@ Rebasing from the Base uBlue image might give you a login screen with only a tex
 
 To rebase an existing Silverblue/Kinoite installation to the latest build:
 
-```
-sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/trs-sod/indomitable:latest
-```
+- First rebase to the image unsigned, to get the proper signing keys and policies installed:
+  ```
+  sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/trs-sod/indomitable:latest
+  ```
+- Reboot to complete the rebase:
+  ```
+  systemctl reboot
+  ```
+- Then rebase to the signed image, like so:
+  ```
+  sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/startingpoint:latest
+  ```
+- Reboot again to complete the installation
+  ```
+  systemctl reboot
+  ```
+
 
 This repository builds date tags as well, so if you want to rebase to a particular day's build:
 
 ```
-sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/trs-sod/indomitable:20230403
+sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/startingpoint:20230403
 ```
-
 
 ## Just
 
