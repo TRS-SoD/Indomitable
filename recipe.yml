@@ -92,7 +92,7 @@ rpm:
     - slurp
 
     # Extras
-    - mpd
+#    - mpd
     - cava
 
     # sddm stuff
