@@ -150,13 +150,6 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           oci: false
 
-      # Workaround to resolve issue with image name being capitalized
-      - name: Lowercase Image Name
-        id: image_case
-        uses: ASzc/change-string-case-action@v5
-        with:
-          string: ${{ env.IMAGE_NAME }}
-
       # Push the image to GHCR (Image Registry)
       - name: Push To GHCR
         uses: redhat-actions/push-to-registry@v2
