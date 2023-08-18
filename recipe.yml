@@ -50,6 +50,7 @@ rpm:
     - pipewire-alsa
     - pipewire-jack-audio-connection-kit
     - pipewire-plugin-libcamera
+    - xdg-user-dirs
 
     ## Network manager and vpn
     - network-manager-applet
