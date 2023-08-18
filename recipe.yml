@@ -25,8 +25,8 @@ rpm:
     - blueman
     - udiskie
     - fprintd-pam
-#    - gnome-keyring-pam
-    - lxqt-policykit
+    - gnome-keyring-pam
+    - polkit-gnome
     - pavucontrol
     - brightnessctl
     - pinentry-gnome3
