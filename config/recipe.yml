@@ -92,7 +92,7 @@ modules:
     - wlsunset
     - xdg-desktop-portal-hyprland
     - xdg-desktop-portal-gtk
-    - waybar-hyprland
+    - waybar-git
     - hyprpicker
     - hyprpaper
     - hyprland-plugins
