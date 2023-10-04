@@ -117,7 +117,7 @@ modules:
     # Install after removing
     - xorg-x11-server-Xwayland
     remove:
-    - xorg-x11-server-Xwayland
+    #- xorg-x11-server-Xwayland
     - firefox # default firefox removed in favor of flatpak
     - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
     - htop
