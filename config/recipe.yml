@@ -135,7 +135,7 @@ modules:
       #- ublue-os-wallpapers
       #- ublue-update # https://github.com/ublue-os/ublue-update
       - dconf-update-service # a service unit that updates the dconf db on boot
-      - devpod # https://devpod.sh/ as an rpm
+      #- devpod # https://devpod.sh/ as an rpm
 
 
   - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
