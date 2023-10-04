@@ -34,6 +34,11 @@ modules:
     #- https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-38/erikreider-SwayNotificationCenter-fedora-38.repo
     - https://copr.fedorainfracloud.org/coprs/trs-sod/swaylock-effects/repo/fedora-38/trs-sod-swaylock-effects-fedora-38.repo
     - https://copr.fedorainfracloud.org/coprs/dngray/sddm-sugar-dark/repo/fedora-38/dngray-sddm-sugar-dark-fedora-38.repo
+    remove:
+    - xorg-x11-server-Xwayland
+    - firefox # default firefox removed in favor of flatpak
+    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+    - htop
     install:
     # Needed for yafti (the first boot installer). Remove if you're not using yafti.
     - python3-pip
