@@ -72,8 +72,8 @@ modules:
     - xdg-user-dirs
 
     ## Xone
-    - xone 
-    - lpf-xone-firmware
+    #- xone 
+    #- lpf-xone-firmware
 
     ## Network manager and vpn
     - network-manager-applet
