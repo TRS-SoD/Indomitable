@@ -96,7 +96,8 @@ modules:
     - rofi
     - swayidle
     - swaylock-effects
-    - SwayNotificationCenter
+    #- SwayNotificationCenter
+    - dunst
     - wlogout
     - wlsunset
     - xdg-desktop-portal-hyprland
