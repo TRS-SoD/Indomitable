@@ -31,7 +31,7 @@ modules:
     repos:
     - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-38/solopasha-hyprland-fedora-38.repo
     #- https://copr.fedorainfracloud.org/coprs/sentry/xone/repo/fedora-38/sentry-xone-fedora-38.repo
-    - https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-38/erikreider-SwayNotificationCenter-fedora-38.repo
+    #- https://copr.fedorainfracloud.org/coprs/erikreider/SwayNotificationCenter/repo/fedora-38/erikreider-SwayNotificationCenter-fedora-38.repo
     - https://copr.fedorainfracloud.org/coprs/trs-sod/swaylock-effects/repo/fedora-38/trs-sod-swaylock-effects-fedora-38.repo
     - https://copr.fedorainfracloud.org/coprs/dngray/sddm-sugar-dark/repo/fedora-38/dngray-sddm-sugar-dark-fedora-38.repo
     install:
@@ -62,6 +62,7 @@ modules:
     - wtype
     - wlr-randr
     - gamescope
+    - wireguard-tools
     - wireplumber
     - pipewire-gstreamer
     - pipewire-pulseaudio
@@ -69,10 +70,6 @@ modules:
     - pipewire-jack-audio-connection-kit
     - pipewire-plugin-libcamera
     - xdg-user-dirs
-
-    ## Xone
-    #- xone 
-    #- lpf-xone-firmware
 
     ## Network manager and vpn
     - network-manager-applet
@@ -134,10 +131,10 @@ modules:
       - fonts # selection of common good free fonts
       - justfiles # add "!include /usr/share/ublue-os/just/bling.just"
                   # in your custom.just (added by default) or local justfile
-      - nix-installer # shell shortcuts for determinate system's nix installers
-      - ublue-os-wallpapers
-      # - ublue-update # https://github.com/ublue-os/ublue-update
-      # - dconf-update-service # a service unit that updates the dconf db on boot
+      #- nix-installer # shell shortcuts for determinate system's nix installers
+      #- ublue-os-wallpapers
+      #- ublue-update # https://github.com/ublue-os/ublue-update
+      - dconf-update-service # a service unit that updates the dconf db on boot
       - devpod # https://devpod.sh/ as an rpm
 
 
