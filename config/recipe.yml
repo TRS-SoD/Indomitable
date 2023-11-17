@@ -71,10 +71,6 @@ modules:
     - pipewire-plugin-libcamera
     - xdg-user-dirs
 
-    ## Xone
-    #- xone 
-    #- lpf-xone-firmware
-
     ## Network manager and vpn
     - network-manager-applet
     - NetworkManager-l2tp-gnome
